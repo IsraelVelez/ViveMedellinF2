@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ViveMedellín - Frontend de Gestión de Usuarios
 
-## Getting Started
+Este proyecto es el **frontend** de la plataforma ViveMedellín, desarrollado con [Next.js](https://nextjs.org/) (App Router), JavaScript y CSS. Permite la gestión de usuarios y perfiles, simulando la experiencia completa de registro, inicio de sesión, edición de perfil, consulta de usuarios y reporte de usuarios activos.
 
-First, run the development server:
+## Características principales
 
-```bash
+- **Registro e inicio de sesión de usuarios** (simulado con localStorage)
+- **Edición y eliminación de perfil**
+- **Visualización de perfiles propios y públicos**
+- **Carga y visualización de foto de perfil**
+- **Gestión de intereses, ubicación y biografía**
+- **Reporte de usuarios activos**
+- **Interfaz moderna y responsiva**
+- **Preparado para integrarse con backend en Java y base de datos PostgreSQL**
+
+
+## Instalación y ejecución local
+
+1. **Clona el repositorio:**
+
+https://github.com/IsraelVelez/ViveMedellinF2.git
+
+
+2. **Instala las dependencias:**
+
+npm install
+
+
+3. **Inicia el servidor de desarrollo:**
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+4. **Abre la aplicación en tu navegador:**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+http://localhost:3000
 
-## Learn More
+## Despliegue en Vercel
 
-To learn more about Next.js, take a look at the following resources:
+## Tecnologías utilizadas
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js 15+](https://nextjs.org/) (App Router)
+- JavaScript (JSX)
+- CSS simple y responsivo
+- Webpack (empaquetado automático)
+- LocalStorage (simulación de persistencia)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Notas
 
-## Deploy on Vercel
+- Este frontend está preparado para integrarse con un backend en Java y base de datos PostgreSQL.
+- Actualmente, la autenticación y gestión de usuarios es simulada en el navegador mediante localStorage para fines académicos.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Autores
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Equipo de Frontend - ViveMedellín
